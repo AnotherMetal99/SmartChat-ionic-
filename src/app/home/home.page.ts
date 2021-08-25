@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  nu = 0;
+  onChangeText(){
+   this.nu += 1;
+  }
+  onChangeText1(){
+    this.nu -= 1;
+   }
 
   constructor() {}
 
